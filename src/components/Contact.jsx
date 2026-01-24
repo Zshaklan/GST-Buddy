@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Phone } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -44,13 +43,6 @@ export default function Contact() {
         >
           Submit
         </button>
-
-        <a
-          href="tel:+919876543210"
-          className="mt-4 flex justify-center items-center text-blue-600"
-        >
-          <Phone className="mr-2" /> Call Now
-        </a>
       </div>
     </section>
   );

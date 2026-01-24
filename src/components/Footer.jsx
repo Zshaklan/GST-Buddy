@@ -1,5 +1,5 @@
-import { Calculator } from "lucide-react";
 import { useAppContext } from "../context/AppContext";
+import Logo from "../assets/GST-Buddy-Logo.jpeg";
 
 export default function Footer() {
   const { scrollToSection } = useAppContext();
@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
-              <Calculator className="h-8 w-8 text-blue-400" />
+              <img src={Logo} className="h-8 w-8 text-blue-600" />
               <span className="ml-2 text-xl font-bold">GST Buddy</span>
             </div>
             <p className="text-gray-400">
@@ -49,12 +49,13 @@ export default function Footer() {
               <li>Monday - Friday: 9:00 AM - 7:00 PM</li>
               <li>Saturday: 9:00 AM - 5:00 PM</li>
               <li>Sunday: Closed</li>
+              <li>Phone: +91 7015120946</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
-          © 2026 TaxPro Consultancy. All rights reserved.
+          © 2026 GST Buddy Consultancy. All rights reserved.
         </div>
       </div>
     </footer>

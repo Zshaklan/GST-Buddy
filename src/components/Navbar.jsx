@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Calculator } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Logo from "../assets/GST-Buddy-Logo.jpeg";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,7 +43,7 @@ export default function Navbar() {
             className="flex items-center cursor-pointer"
             onClick={() => scrollToSection("home")}
           >
-            <Calculator className="h-8 w-8 text-blue-600" />
+            <img src={Logo} className="h-8 w-8 text-blue-600" />
             <span className="ml-2 text-xl font-bold text-gray-900">
               GST Buddy
             </span>
