@@ -12,7 +12,7 @@ export default function About() {
             </h2>
 
             <p className="text-gray-600 mb-4">
-              TaxPro Consultancy is a leading GST and tax consultancy firm
+              GST Buddy Consultancy is a leading GST and tax consultancy firm
               dedicated to providing comprehensive financial solutions to
               businesses across India. With over a decade of experience in
               taxation, compliance, and business consulting, we have helped
